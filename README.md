@@ -17,7 +17,6 @@
 
 ![1](tutorial.png)
 - use image_generation.json (in workflow) for Luma image2video generation
-- use image_generation.json for Luma image2video generation
 - Get the result id, record saved in output/luma video/record_id.txt
 - use check_result.json to get the video link if Luma generation finished,video will be downloaded automatically if *download* is true.
 - Video will be saved in *output/luma video* folder
