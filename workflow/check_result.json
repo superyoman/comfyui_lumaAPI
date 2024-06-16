@@ -1,0 +1,101 @@
+{
+  "last_node_id": 9,
+  "last_link_id": 4,
+  "nodes": [
+    {
+      "id": 9,
+      "type": "LUMA_API_result_YoC",
+      "pos": [
+        359,
+        -14
+      ],
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "video_link",
+          "type": "STRING",
+          "links": [
+            4
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LUMA_API_result_YoC"
+      },
+      "widgets_values": [
+        "486c63a7-7710-402b-bbd6-fcb6c1ef20fa",
+        true
+      ]
+    },
+    {
+      "id": 6,
+      "type": "ShowText|pysssss",
+      "pos": [
+        921,
+        -12
+      ],
+      "size": {
+        "0": 315,
+        "1": 76
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 4,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "https://storage.cdn-luma.com/lit_lite_inference_im2vid_v1.0/afa4ceb9-5e3a-4919-a1b9-8616f28ed8a9/watermarked_video0dbd169287fab4b5a966b69f0b5cf8a86.mp4"
+      ]
+    }
+  ],
+  "links": [
+    [
+      4,
+      9,
+      0,
+      6,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.2839025177495011,
+      "offset": [
+        -196.4949846033825,
+        324.45706003508246
+      ]
+    }
+  },
+  "version": 0.4
+}
