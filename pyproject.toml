@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_lumaapi"
+description = "Unofficial Luma API-ComfyUI version.[w/WARN: This project is for learning purpose only!]"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["requests", "Pillow"]
+
+[project.urls]
+Repository = "https://github.com/superyoman/comfyui_lumaAPI"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui_lumaAPI"
+Icon = ""
